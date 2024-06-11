@@ -15,7 +15,7 @@ const Tabs = () => {
           onClick={() => setActiveTab(0)}
         >
           <div className="rounded inline-flex items-center px-4 space-x-2">
-            <FillDown className="w-4 h-4 mr-2 text-black" />
+            <FillDown className="w-4 h-4 mr-2 text-black transform hover:rotate-45 transition-all" />
 
             <div className="flex flex-col">
               <span
@@ -43,7 +43,7 @@ const Tabs = () => {
           onClick={() => setActiveTab(1)}
         >
           <div className="rounded inline-flex items-center px-4 space-x-2">
-            <FillUp className="w-4 h-4 mr-2 text-black" />
+            <FillUp className="w-4 h-4 mr-2 text-black transform hover:rotate-45 transition-all" />
             <div className="flex flex-col">
               <span
                 className={`text-xs ${
