@@ -1,3 +1,3 @@
 https://dribbble.com/shots/18475628-Winden-Dashboard-Experiments
 
-Deployed at: https://6667e0f30e46b1a7fde355d6--capable-cobbler-556caa.netlify.app/
+Deployed at: https://666804a7bef6d2c1f56c5fb0--capable-cobbler-556caa.netlify.app/
