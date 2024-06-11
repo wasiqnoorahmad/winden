@@ -91,7 +91,10 @@ const Card = ({
       className={`flex basis-1/2 justify-between items-center transition-all duration-200 ${
         isExpanded ? "w-112" : "w-82"
       } p-4 bg-white border border-gray-200 shadow group`}
-      onClick={toggleCardExpansion}
+      onClick={(event) => {
+        event.stopPropagation();
+        toggleCardExpansion();
+      }}
       style={{ height: "10rem", minWidth: "20.5rem" }}
     >
       <div className="flex flex-col flex-grow overflow-hidden relative">

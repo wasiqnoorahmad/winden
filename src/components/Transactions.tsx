@@ -22,9 +22,9 @@ const Transactions = () => {
             </span>
           </div>
 
-          <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
+          <hr className="h-px my-4 bg-gray-200 border-0" />
 
-          <div className="flex flex-col">
+          <div className="flex flex-col hover:bg-gray-200 p-2 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="flex space-x-2 items-center">
                 <img
@@ -47,9 +47,9 @@ const Transactions = () => {
             </div>
           </div>
 
-          <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
+          <hr className="h-px my-4 bg-gray-200 border-0" />
 
-          <div className="flex flex-col">
+          <div className="flex flex-col hover:bg-gray-200 p-2 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="flex space-x-2 items-center">
                 <img
@@ -72,9 +72,9 @@ const Transactions = () => {
             </div>
           </div>
 
-          <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700" />
+          <hr className="h-px my-4 bg-gray-200 border-0" />
 
-          <div className="flex flex-col">
+          <div className="flex flex-col hover:bg-gray-200 p-2 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="flex space-x-2 items-center">
                 <img
@@ -99,7 +99,7 @@ const Transactions = () => {
 
           <hr className="h-px my-4 bg-gray-200 border-0" />
 
-          <div className="flex flex-col">
+          <div className="flex flex-col hover:bg-gray-200 p-2 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="flex space-x-2 items-center">
                 <img
